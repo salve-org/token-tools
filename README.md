@@ -1,4 +1,4 @@
-<h1 align="center">Token Tools v0.1.0</h1>
+<h1 align="center">Token Tools v0.1.1</h1>
 
 Token Tools provides, well, tools for `Token`'s!
 
