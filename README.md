@@ -8,7 +8,7 @@ In the Command Line, paste the following: `pip install token_tools`
 
 ## Description
 
-A tool that provides `Token`'s and tools to use them for `Salve Organization` projects. Docs are listed on this [ReadTheDocs page](https://token_tools.readthedocs.io/en/master/)
+A tool that provides `Token`'s and tools to use them for `Salve Organization` projects. Docs are listed on this [ReadTheDocs page](https://token-tools.readthedocs.io/en/master/)
 
 ## Contributing
 
