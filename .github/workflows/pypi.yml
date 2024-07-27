@@ -1,4 +1,4 @@
-name: Upload salve to Pypi
+name: Upload token_tools to Pypi
 
 on:
   release:
