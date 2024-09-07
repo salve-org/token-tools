@@ -5,16 +5,14 @@
 Token = tuple[tuple[int, int], int, str]
 
 GENERIC_TOKENS: list[str] = [
-    "Whitespace",
-    "Text",
+    "Identifier",  # Variable
     "Error",
     "Keyword",
-    "Name",
+    "Type",
     "String",
     "Number",
     "Literal",
     "Operator",
     "Punctuation",
     "Comment",
-    "Generic",
 ]

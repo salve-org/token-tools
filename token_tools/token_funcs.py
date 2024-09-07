@@ -8,10 +8,10 @@ def normal_text_range(
     """Takes the full text and a text range (inclusively numbered) and returns the split text and a tuple with the proper text range."""
     # Text range is the first and last line inclusively with -1 for the end line indicating that it goes until the last line
     split_text: list[str] = full_text.splitlines()
+    split_len: int = len(split_text)
 
-    if text_range[1] == -1:
-        # This indicates that the text range should span the length of the entire code
-        split_len: int = len(split_text)
+    if text_range[1] > split_len or text_range[1] == -1:
+        # This indicates that the text range should span the length of the entire code or is too long
         split_len = (
             1 if split_len == 0 else split_len
         )  # If its a one line code snippet, we need to +1
