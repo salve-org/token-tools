@@ -7,7 +7,7 @@ with open("README.md", "r") as file:
 
 setup(
     name="token_tools",
-    version="0.1.2",
+    version="0.2.0",
     description="Token Tools provides, well, tools for Token's!",
     author="Moosems",
     author_email="moosems.j@gmail.com",

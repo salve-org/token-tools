@@ -10,7 +10,7 @@ def normal_text_range(
     split_text: list[str] = full_text.splitlines()
     split_len: int = len(split_text)
 
-    if text_range[1] > split_len or text_range[1] == -1:
+    if text_range[1] >= split_len or text_range[1] == -1:
         # This indicates that the text range should span the length of the entire code or is too long
         split_len = (
             1 if split_len == 0 else split_len
